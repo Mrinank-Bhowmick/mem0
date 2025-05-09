@@ -93,7 +93,7 @@ npm install mem0ai
 
 ### Basic Usage
 
-Mem0 requires an LLM to function, with `gpt-4o-mini` from OpenAI as the default. However, it supports a variety of LLMs; for details, refer to our [Supported LLMs documentation](https://docs.mem0.ai/llms).
+Mem0 requires an LLM to function, with `gpt-4o-mini` from OpenAI as the default. However, it supports a variety of LLMs; for details, refer to our [Supported LLMs documentation](https://docs.mem0.ai/components/llms/overview).
 
 First step is to instantiate the memory:
 
@@ -134,12 +134,12 @@ if __name__ == "__main__":
     main()
 ```
 
-For detailed integration steps, see the [Quickstart](https://docs.mem0.ai/quickstart) and [API Reference](https://docs.mem0.ai).
+For detailed integration steps, see the [Quickstart](https://docs.mem0.ai/quickstart) and [API Reference](https://docs.mem0.ai/api-reference).
 
 ## 🔗 Integrations & Demos
 
 - **ChatGPT with Memory**: Personalized chat powered by Mem0 ([Live Demo](https://mem0.dev/demo))
-- **Browser Extension**: Store memories across ChatGPT, Perplexity, and Claude ([Chrome Extension](https://chromewebstore.google.com/detail/mem0))
+- **Browser Extension**: Store memories across ChatGPT, Perplexity, and Claude ([Chrome Extension](https://chromewebstore.google.com/detail/onihkkbipkfeijkadecaafbgagkhglop?utm_source=item-share-cb))
 - **Langgraph Support**: Build a customer bot with Langgraph + Mem0 ([Guide](https://docs.mem0.ai/integrations/langgraph))
 - **CrewAI Integration**: Tailor CrewAI outputs with Mem0 ([Example](https://docs.mem0.ai/integrations/crewai))
 
@@ -148,6 +148,19 @@ For detailed integration steps, see the [Quickstart](https://docs.mem0.ai/quicks
 - Full docs: https://docs.mem0.ai
 - Community: [Discord](https://mem0.dev/DiG) · [Twitter](https://x.com/mem0ai)
 - Contact: founders@mem0.ai
+
+## Citation
+
+We now have a paper you can cite:
+
+```bibtex
+@article{mem0,
+  title={Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory},
+  author={Chhikara, Prateek and Khant, Dev and Aryan, Saket and Singh, Taranjeet and Yadav, Deshraj},
+  journal={arXiv preprint arXiv:2504.19413},
+  year={2025}
+}
+```
 
 ## ⚖️ License
 
