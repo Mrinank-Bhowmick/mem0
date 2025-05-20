@@ -47,6 +47,7 @@
                     "pages": [
                       "features/platform-overview",
                       "features/advanced-retrieval",
+                      "features/criteria-retrieval",
                       "features/contextual-add",
                       "features/multimodal-support",
                       "features/timestamp",
@@ -218,6 +219,7 @@
                   "examples/mem0-agentic-tool",
                   "examples/openai-inbuilt-tools",
                   "examples/mem0-openai-voice-demo",
+                  "examples/mem0-google-adk-healthcare-assistant",
                   "examples/email_processing",
                   "examples/youtube-assistant"
                 ]
